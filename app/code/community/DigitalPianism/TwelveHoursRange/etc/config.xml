@@ -3,17 +3,17 @@
 
 	<modules>
 		<DigitalPianism_TwelveHoursRange>
-			<version>0.1.0</version>
+			<version>0.1.1</version>
 		</DigitalPianism_TwelveHoursRange>
 	</modules>
 	
 	<global>
 		<models>
-			<reports>
+			<reports_resource>
 				<rewrite>
 					<!-- Mage_Reports_Model_Resource_Order_Collection -->
-					<resource_order_collection>DigitalPianism_TwelveHoursRange_Model_Reports_Resource_Order_Collection</resource_order_collection>
-				</rewrite>
+					<order_collection>DigitalPianism_TwelveHoursRange_Model_Reports_Resource_Order_Collection</order_collection>
+				</reports_resource>
 			</reports>
 		</models>
 		

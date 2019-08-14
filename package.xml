@@ -1,18 +1,27 @@
 <?xml version="1.0"?>
 <package>
     <name>DigitalPianism_TwelveHoursRange</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
-    <summary>Adds a 12 hours range to the dashboard graph.</summary>
-    <description>This extension adds a twelve hours range to the Magento backend dashboard graph in order to help store managers to have a better overview of their sales.</description>
-    <notes>Stable version.</notes>
+    <summary>Adds a 12 hours range to the dashboard graph. </summary>
+    <description>&lt;h2&gt;12 Hours Range Dashboard&lt;/h2&gt;&#xD;
+&#xD;
+&lt;p&gt;This extension adds a 12 hours range to the Magento backend dashboard graph in order to help store managers to have a better overview of their sales.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;With this extension, backend administrators will have access to a new range under the Dashboard menu called "Last 12 hours"&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Once the extension is installed, the new range is automatically added to the dashboard.&lt;/p&gt;&#xD;
+&#xD;
+&lt;p&gt;Connect to the backend and go the dashboard, you will see the new "12 Hours Range" in the range selector and the corresponding graph and amount of sales will be displayed.&lt;/p&gt;</description>
+    <notes>Improves the way we override the resource model.&#xD;
+</notes>
     <authors><author><name>Digital Pianism</name><user>digitalpianism</user><email>contact@digital-pianism.com</email></author></authors>
-    <date>2014-05-02</date>
-    <time>13:22:53</time>
-    <contents><target name="magecommunity"><dir name="DigitalPianism"><dir name="TwelveHoursRange"><dir name="Block"><dir name="Adminhtml"><dir name="Dashboard"><file name="Graph.php" hash="b0a9aa5b91fde009314c148db7d89424"/><dir name="Tab"><file name="Amounts.php" hash="795391ef2a46b323d6979ece3a56317d"/><file name="Orders.php" hash="554ad291d26c194f5213a2c0d8723ddd"/></dir><file name="Totals.php" hash="d3145437fff618b0d28c86783e515c71"/></dir></dir></dir><dir name="Helper"><dir name="Adminhtml"><dir name="Dashboard"><file name="Data.php" hash="2246c19ae94ffc6ce034bf403a3bae2c"/></dir></dir></dir><dir name="Model"><dir name="Reports"><dir name="Resource"><dir name="Order"><file name="Collection.php" hash="de1036063de366ee714b5304050a7f92"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="739351a2ee8f5a5d68d7956f4da5c921"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DigitalPianism_TwelveHoursRange.xml" hash="ddbab62b38efb5d63bc21c9cbb1ea548"/></dir></target></contents>
+    <date>2015-03-06</date>
+    <time>09:23:48</time>
+    <contents><target name="magecommunity"><dir name="DigitalPianism"><dir name="TwelveHoursRange"><dir name="Block"><dir name="Adminhtml"><dir name="Dashboard"><file name="Graph.php" hash="b0a9aa5b91fde009314c148db7d89424"/><dir name="Tab"><file name="Amounts.php" hash="795391ef2a46b323d6979ece3a56317d"/><file name="Orders.php" hash="554ad291d26c194f5213a2c0d8723ddd"/></dir><file name="Totals.php" hash="d3145437fff618b0d28c86783e515c71"/></dir></dir></dir><dir name="Helper"><dir name="Adminhtml"><dir name="Dashboard"><file name="Data.php" hash="2246c19ae94ffc6ce034bf403a3bae2c"/></dir></dir></dir><dir name="Model"><dir name="Reports"><dir name="Resource"><dir name="Order"><file name="Collection.php" hash="de1036063de366ee714b5304050a7f92"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="e0534379e3d92d385e4832feacf6aa02"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DigitalPianism_TwelveHoursRange.xml" hash="ddbab62b38efb5d63bc21c9cbb1ea548"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>4.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
